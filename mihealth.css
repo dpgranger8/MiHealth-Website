@@ -8,26 +8,6 @@ body {
     padding: 0;
 }
 
-.landing {
-    display: flex;
-    height: 100vh;
-    background-color: rgba(76, 175, 80, 0.15);
-    backdrop-filter: blur(3px);
-    margin: 2rem;
-    border-radius: 15px;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 1000vh;
-    height: 1000vh;
-    margin: 10vh;
-    font-size: 50px;
-    font-weight: bold;
-}
-
 .logo {
     font-weight: bold;
     font-style: oblique;
@@ -47,7 +27,6 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #444;
-    overflow: hidden;
 }
 
 .topnav a {
@@ -63,10 +42,49 @@ body {
 .nav-links a:hover {
     background-color: #ddd;
     color: black;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .nav-links a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 2rem;
+}
+.text {
+    margin: 2rem;
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-color: rgba(76, 175, 80, 0.15);
+    backdrop-filter: blur(3px);
+    margin: 2rem;
+    border-radius: 15px;
 }
