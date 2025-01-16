@@ -11,7 +11,7 @@ body {
 .logo {
     font-weight: bold;
     font-style: oblique;
-    font-size: 25px !important;
+    font-size: 23px !important;
 }
 
 .logo .mi {
@@ -27,6 +27,8 @@ body {
     top: 0;
     background-color: #444;
     z-index: 2;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 #topnav a {
@@ -35,25 +37,20 @@ body {
     text-align: center;
     padding: 1rem 1rem;
     text-decoration: none;
-    font-size: 19px;
-    margin: 5px;
+    font-size: 18px;
+    margin: -5px;
 }
 
 .nav-links a:hover {
     background-color: #888;
     color: black;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .nav-links a.active {
     background-color: #04AA6D;
     color: white;
-    border-radius: 3px;
-}
-
-.landing {
-    display: flex;
-    flex-direction: column;
+    border-radius: 5px;
 }
 
 .title {
@@ -62,24 +59,62 @@ body {
 }
 
 p {
-    font-size: 17px;
-}
-
-.image {
-    width: 50%;
-    height: 50%;
+    padding-top: 2rem;
+    font-size: 20px;
 }
 
 .container {
     display: flex;
-    background-color: rgba(76, 175, 80, 0.15);
-    backdrop-filter: blur(3px);
-    margin: 1rem;
+    background-color: rgba(6, 170, 109, 0.2);
+    backdrop-filter: blur(2px);
+    margin: 2rem;
     border-radius: 15px;
 }
 
 .container > .hstack {
-    margin: 1rem;
+    margin: 2rem;
+}
+
+.herotile {
+    position: relative;
+    border-radius: 25px;
+    width: 250%;
+    height: 500px;
+    background-size: cover;
+    margin-left: 2rem !important;
+}
+
+.pinkbanner {
+    font-size: 20px;
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+}
+
+.whitebanner {
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: palevioletred;
+    padding: 1rem;
+    border-bottom-right-radius: 25px;
+    width: 130px;
+}
+
+#breakfast {
+    background-image: url("apple-breakfast-quinoa-7.jpg");
+}
+
+#lunch {
+    background-image: url("pasta-salad-recipe-for-lunch.jpg");
+}
+
+#dinner {
+    background-image: url("shrimptastic.jpg");
 }
 
 /* COMPONENTS */
