@@ -76,6 +76,8 @@ p {
 }
 
 .herotile {
+    text-decoration: none;
+    color: black;
     position: relative;
     border-radius: 25px;
     width: 250%;
@@ -103,6 +105,10 @@ p {
     padding: 1rem;
     border-bottom-right-radius: 25px;
     width: 130px;
+}
+
+.herotile:hover {
+    transform: scale(105%);
 }
 
 #breakfast {
